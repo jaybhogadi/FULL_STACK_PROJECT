@@ -4,7 +4,8 @@ A full-stack MERN application to upload lecture videos (MP4), transcribe them us
 
 ## Demo
 
-📥 [Sample Video File]([https://drive.google.com/file/d/1-NBf8gVbPxj8QBQq1ALoxalMs_NP7Rdj/view?usp=sharing](https://drive.google.com/file/d/1bf_RozhlKptdVxkbvPUvMTkQEnegUMLq/view?usp=sharing))
+📥📥 [Demo_link](https://drive.google.com/file/d/1bf_RozhlKptdVxkbvPUvMTkQEnegUMLq/view?usp=sharing)
+
 
 ---
 

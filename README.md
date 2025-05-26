@@ -49,17 +49,6 @@ A full-stack MERN application to upload lecture videos (MP4), transcribe them us
 
 ---
 
-## 🧠 Sample Prompt (for LLM)
-
-```text
-Given the transcript below, generate 2 multiple-choice questions with 4 options each. Highlight the correct answer and give 1-line explanation.
-
-Transcript:
-"In this video, we're going to learn the anatomy and physiology of the ear..."
-```
-
----
-
 ## 📋 To-Do / Future Enhancements
 
 - [ ] Add user authentication (JWT)

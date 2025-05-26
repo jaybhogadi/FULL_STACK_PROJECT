@@ -49,22 +49,6 @@ A full-stack MERN application to upload lecture videos (MP4), transcribe them us
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/yourusername/video-mcq-generator.git
-cd video-mcq-generator
-```
-
-### 2. Environment Setup
-
-#### `.env` for Node.js
-
-```env
-MONGO_USER=your_user
-MONGO_PASSWORD=your_pass
 MONGO_CLUSTER=cluster0.xxxxx.mongodb.net
 MONGO_DB=vid_quiz
 MONGO_URI=mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}/${MONGO_DB}?retryWrites=true&w=majority
@@ -78,54 +62,6 @@ MONGO_URI=mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}/${MONGO
 OLLAMA_HOST=http://localhost:11434
 MODEL_NAME=mistral
 ```
-
----
-
-### 3. Run Python Backend
-
-> Assumes `ollama` and `whisper` are installed.
-
-```bash
-cd backend/python_fastapi
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8001
-```
-
-### 4. Run Node.js Backend
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-### 5. Run Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-## 📦 API Routes
-
-### Node.js
-
-| Endpoint               | Method | Description               |
-| ----------------------|--------|---------------------------|
-| `/upload`             | POST   | Uploads video             |
-| `/transcribe`         | POST   | Sends video to Python API |
-| `/generate-questions` | POST   | Triggers MCQ generation   |
-| `/update-question`    | PUT    | Edit MCQ content          |
-
-### Python (FastAPI)
-
-| Endpoint           | Method | Description               |
-|--------------------|--------|---------------------------|
-| `/transcribe/`     | POST   | Transcribes audio (Whisper) |
-| `/generate-mcqs/`  | POST   | Generates MCQs (LLM)      |
-
----
 
 ## 🧠 Sample Prompt (for LLM)
 

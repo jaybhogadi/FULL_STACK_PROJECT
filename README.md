@@ -2,7 +2,7 @@
 
 A full-stack MERN application to upload lecture videos (MP4), transcribe them using Whisper, segment the transcript into 5-minute chunks, and generate MCQs using a locally hosted LLM like Mistral (via Ollama). All processes run locally to ensure **offline capability** and **data privacy**.
 
-## 🔥 Live Demo
+## Demo
 
 📥 [Sample Video File](https://drive.google.com/file/d/1-NBf8gVbPxj8QBQq1ALoxalMs_NP7Rdj/view?usp=sharing)
 

@@ -49,20 +49,6 @@ A full-stack MERN application to upload lecture videos (MP4), transcribe them us
 
 ---
 
-MONGO_CLUSTER=cluster0.xxxxx.mongodb.net
-MONGO_DB=vid_quiz
-MONGO_URI=mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}/${MONGO_DB}?retryWrites=true&w=majority
-```
-
-> Make sure `.env` is in `.gitignore`.
-
-#### `.env` for Python (Optional)
-
-```env
-OLLAMA_HOST=http://localhost:11434
-MODEL_NAME=mistral
-```
-
 ## 🧠 Sample Prompt (for LLM)
 
 ```text

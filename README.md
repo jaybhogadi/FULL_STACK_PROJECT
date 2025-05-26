@@ -4,8 +4,7 @@ A full-stack MERN application to upload lecture videos (MP4), transcribe them us
 
 ## 🔥 Live Demo
 
-![Demo Screenshot](./assets/demo-screenshot.png)  
-📥 [Sample Video File](https://drive.google.com/your-demo-video-link)
+📥 [Sample Video File]([https://drive.google.com/your-demo-video-link](https://drive.google.com/file/d/1-NBf8gVbPxj8QBQq1ALoxalMs_NP7Rdj/view?usp=sharing))
 
 ---
 
@@ -46,7 +45,6 @@ A full-stack MERN application to upload lecture videos (MP4), transcribe them us
 | Realtime Comm | WebSockets                   |
 | AI Services   | Whisper, Mistral via Ollama  |
 | Database      | MongoDB                      |
-| File Storage  | Local FS / GridFS            |
 | Python AI API | FastAPI                      |
 
 ---
@@ -88,7 +86,7 @@ MODEL_NAME=mistral
 > Assumes `ollama` and `whisper` are installed.
 
 ```bash
-cd backend-python
+cd backend/python_fastapi
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8001
 ```
@@ -96,7 +94,7 @@ uvicorn main:app --reload --port 8001
 ### 4. Run Node.js Backend
 
 ```bash
-cd backend-node
+cd backend
 npm install
 npm run dev
 ```
@@ -108,22 +106,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
----
-
-## 📁 Folder Structure
-
-```
-project-root/
-│
-├── frontend/            # React UI
-├── backend-node/        # Express + MongoDB
-├── backend-python/      # FastAPI + Whisper + Ollama
-├── assets/              # Screenshots, logos
-└── README.md
-```
-
----
 
 ## 📦 API Routes
 
@@ -168,9 +150,9 @@ Transcript:
 
 ## 👨‍💻 Author
 
-**Jaya Krishna Sri**  
+**Jaya Krishna Sri Bhogadi**  
 ⚙️ Generative AI | MERN Developer | Whisper | Ollama | LangChain  
-📧 your-jayakrishnasri13@gmail.com
+📧 jayakrishnasri13@gmail.com
 
 ---
 
